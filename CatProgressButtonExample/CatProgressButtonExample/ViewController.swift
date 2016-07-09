@@ -28,7 +28,7 @@ class ViewController: UIViewController {
         progressButton.layer.borderColor = blueColor.CGColor
         progressButton.layer.borderWidth = 1
         progressButton.layer.masksToBounds = true
-        progressButton.progressAnimationDuration = 0.3
+        progressButton.progressAnimationDuration = 0.5
         self.view.addSubview(progressButton)
         
         progressButton.buttonOnClickHandler = {(button) in
